@@ -11,11 +11,11 @@ namespace ClassVideoGame
         private int _dexterity;
         private Random randomObject = new Random();
 
-        public Character(string name, int hp, int dam, int def, int dext)
+        public Character(string name, int hp, int strength, int def, int dext)
         {
             this.Name = name;
             this.HP = hp;
-            this.Strength = dam;
+            this.Strength = strength;
             this.Defense = def;
             this.Dexterity = dext;
         }
